@@ -1,4 +1,3 @@
-```markdown
 # Terraform Infrastructure as Code (IaC) – Docker Container Provisioning
 
 ## 📌 Objective
@@ -18,15 +17,13 @@ Provision a local Docker container using Terraform to demonstrate Infrastructure
 ## 📂 Project Structure
 
 ```
-
 terraform-docker-project/
 │
 ├── main.tf
 ├── terraform.tfstate
 ├── terraform.tfstate.backup
 └── README.md
-
-````
+```
 
 ---
 
@@ -64,7 +61,7 @@ resource "docker_container" "nginx_container" {
 
   restart = "unless-stopped"
 }
-````
+```
 
 ---
 
@@ -98,13 +95,13 @@ terraform apply
 
 Type `yes` to confirm.
 
-Result:
+**Result:**
 
-* Pulled nginx image
-* Created container
-* Mapped port 8085 → 80
+- Pulled nginx image
+- Created container
+- Mapped port 8085 → 80
 
-Accessed via:
+**Accessed via:**
 
 ```
 http://localhost:8085
@@ -135,15 +132,14 @@ Container successfully removed.
 
 ## 📚 Key Concepts Learned
 
-* Infrastructure as Code (IaC)
-* Terraform provider usage
-* Terraform state file management
-* Resource provisioning and destruction
-* Docker integration with Terraform
+- Infrastructure as Code (IaC)
+- Terraform provider usage
+- Terraform state file management
+- Resource provisioning and destruction
+- Docker integration with Terraform
 
 ---
 
 ## ✅ Outcome
 
 Successfully provisioned and destroyed a Docker container using Terraform, demonstrating Infrastructure as Code principles.
-
