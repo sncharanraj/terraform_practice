@@ -86,7 +86,7 @@ terraform plan
 Shows what Terraform will create before applying.
 
 
-![](Screenshots/plan.png)
+![](screenshots/plan.png)
 ---
 
 ### 3️⃣ Apply Configuration
@@ -121,7 +121,7 @@ docker ps
 Confirmed container is running.
 
 
-![](Screenshots/state.png)
+![](screenshots/state.png)
 ---
 
 ### 5️⃣ Destroy Infrastructure
@@ -133,9 +133,9 @@ terraform destroy
 Container successfully removed.
 
 
-![](Screenshots/dest1.png)
+![](screenshots/dest1.png)
 
-![](Screenshots/dest2.png)
+![](screenshots/dest2.png)
 ---
 
 ## 📚 Key Concepts Learned
